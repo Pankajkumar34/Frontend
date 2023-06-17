@@ -1,0 +1,129 @@
+*{
+padding: 0;
+margin: 0;
+}
+h1 {
+    text-align: center;
+    border-bottom: 2px solid;
+    color: #1282ec;
+    margin: 15px 0;
+}
+.main-registration{
+    width: 100%;
+
+    background-image: url('../image/17973908.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+
+}
+input {
+    width: 300px;
+    /* padding: 7px 0; */
+    margin-bottom: 12px;
+    margin-left: 34px;
+    font-size: 17px;
+    border: none;
+    padding: 9px 8px 12px 12px;
+    border-radius: 10px;
+
+}
+.group-input {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+}
+form {
+  width: 60%;
+}
+label{
+    color: black;
+}
+i.fa.fa-eye-slash {
+    position: absolute;
+    left: 302px;
+    bottom: 27px;
+}
+h2.heading-crud {
+    width: 400px;
+    text-align: center;
+    justify-content: normal;
+    display: flex;
+    flex-wrap: nowrap;
+    color: #0d6efd;
+    font-size: 58px;
+    margin: auto;
+    flex-direction: column;
+}
+span.sp-crud {
+    color: red;
+    font-size: 100px;
+    font-weight: 700;
+}
+i.fa.fa-eye-slash2 {
+    position: absolute;
+    left: 302px;
+    bottom: 27px;
+}
+.male-gender {
+    display: flex;
+    margin: 5px 0;
+}
+
+h4.heading {
+    border-bottom: 4px solid;
+    color: #ffffff;
+    border-color: #0081ff;
+    width: 221px;
+    text-align: center;
+}
+input.gender-text {
+    padding: 0;
+    margin: 0;
+    /* font-size: 40px; */
+    width: 89px;
+    /* margin: 0 0 3px 8px; */
+}
+
+input.gender-text.move {
+    margin: 4px 0px 4px 15px;
+}
+input.gender-text.move1 {
+    margin: 0px 1px 7px 0px;
+    /* line-height: 40px; */
+}
+.input-text {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.checkbox-design {
+    font-weight: 700;
+    /* color: wheat; */
+}
+.checkbox-gender {
+    justify-content: center;
+    /* color: floralwhite; */
+}
+textarea {
+    resize: vertical;
+    width: 300px;
+    /* padding: 7px 0; */
+    margin-bottom: 12px;
+    margin-left: 34px;
+    font-size: 17px;
+    border: none;
+    padding: 9px 8px 12px 12px;
+    border-radius: 10px;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+img.photo {
+    width: 70px;
+}
+

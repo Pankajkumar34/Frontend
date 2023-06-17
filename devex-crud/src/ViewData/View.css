@@ -1,0 +1,19 @@
+.mainbox{
+    width: 60%;
+    border: 1px solid;
+    margin: auto;
+}
+
+.imageData{
+    width:50% ;
+}
+.imageSet {
+    width: 246px;
+    padding: 10px 0;
+    /* width: 100%; */
+}
+.d-flex {
+    display: flex!important;
+    align-items: center;
+    padding: 0 14px 0 0;
+}

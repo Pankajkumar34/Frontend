@@ -1,0 +1,32 @@
+  <div className="checkbox-gender d-flex text-align-center">
+                                <div className="checkbox-set">
+                                    <label>Select your Hobbies</label> <br />
+                                    <div className="input-text">
+                                        <label htmlFor="hobbies">playing</label>
+                                        <input type="checkbox" name="hobbies" value="plyang" onChange={handle} />
+                                    </div>
+                                    <div className="input-text">
+                                        <label htmlFor="hobbies">singing</label>
+                                        <input type="checkbox" name="hobbies" value="bad" onChange={handle} />
+                                    </div>
+                                </div>
+
+
+
+                                <div className="radio">
+                                <h4 className="heading ">Select Gender</h4>
+                                    <div className="male-gender">
+                                        
+                                        <label htmlFor="gender">male &nbsp;</label>
+                                        <input type="radio" name='gender' value='male' onChange={handle} />
+                                        &nbsp;
+                                    </div>
+
+                                    <div className="male-gender">
+
+                                        <label htmlFor="female">Female &nbsp;</label>
+                                        <input type="radio" name='gender' value='Female' onChange={handle} />
+                                    </div>
+                                </div>
+
+                            </div>
